@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "new-project"
+version = "0.1.0"
+description = ""
+authors = ["martabadji <marta.badji@ukkidney.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rr-connection-manager = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
